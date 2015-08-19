@@ -1,0 +1,35 @@
+{
+  "name": "rosie_controller_tasks",
+  "version": "0.1.0",
+  "description": "Adds tasks to the Rosie Controller.",
+  "author": "Scott Olson",
+  "license": "MIT",
+  "keywords": [
+    "home",
+    "automation",
+    "rosie",
+    "tasks"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Olson3R/rosie_controller_tasks"
+  },
+  "bugs": {
+    "url": "https://github.com/Olson3R/rosie_controller_tasks/issues"
+  },
+  "homepage": "https://github.com/Olson3R/rosie_controller_tasks",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "./node_modules/rejoice/bin/rejoice -c index.json -p ./"
+  },
+  "dependencies": {
+    "bluebird": "^2.9.34",
+    "good": "^6.3.0",
+    "good-console": "^5.0.3",
+    "hapi": "^8.2.0",
+    "kue": "^0.9.3",
+    "rejoice": "^2.0.1",
+    "underscore": "^1.8.3"
+  }
+}
