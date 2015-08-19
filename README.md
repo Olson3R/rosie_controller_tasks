@@ -1,5 +1,5 @@
 # rosie_controller_tasks
-A plugin for the [Rosie controller](https://github.com/Olson3R/rosie_controller) application that allows for the creation and scheduling of tasks. Adds /tasks endpoints.
+A plugin for the [Rosie Controller](https://github.com/Olson3R/rosie_controller) application that allows for the creation and scheduling of tasks. Adds /tasks endpoints.
 
 # Dependencies
 1. [Kue](https://github.com/Automattic/kue) requires [redis](http://redis.io/)
